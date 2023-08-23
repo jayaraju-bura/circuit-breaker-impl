@@ -1,9 +1,7 @@
 import functools
-import http
 import logging 
 from datetime import datetime
 
-import requests
 
 logging.basicConfig(
     level=logging.INFO,
