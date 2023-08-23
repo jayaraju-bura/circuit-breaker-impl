@@ -1,6 +1,6 @@
 # circuit-breaker-impl
 
-``
+```
 File ~\OneDrive\Documents\circuit-breaker-impl\circuit_breaker.py:80, in CircuitBreaker.make_remote_call(self, *args, **kwargs)
      78 def make_remote_call(self, *args, **kwargs):
      79     if self.state == CircuitStates.OPEN:
@@ -25,4 +25,4 @@ Call to http://127.0.0.1:5000/success succeed with status code = 200
 00:45:50,610 INFO: changed state from half_open to closed
 00:45:50,610 INFO: changed state from half_open to closed
 Out[13]: <Response [200]>
-``
+```
