@@ -6,9 +6,9 @@ import functools
 
 from circuit_breaker import circuit_breaker
 
-faulty_endpoint = "http://127.0.0.1:5000/failure"
-success_endpoint = "http://127.0.0.1:5000/success"
-random_status_endpoint = "http://127.0.0.1:5000/random"
+faulty_endpoint = "http://127.0.0.1:5000/negative"
+success_endpoint = "http://127.0.0.1:5000/positive"
+random_status_endpoint = "http://127.0.0.1:5000/arbitrary"
 
 
 @circuit_breaker()
