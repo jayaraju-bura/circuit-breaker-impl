@@ -1,5 +1,7 @@
 # circuit-breaker-impl
 
+implementation of  circuit breaker design pattern in python, described in "Release It!"
+
 ```
 File ~\OneDrive\Documents\circuit-breaker-impl\circuit_breaker.py:62, in CircuitBreaker.handle_open_state(self, *args, **kwargs)
      59 current_time = datetime.utcnow().timestamp()
